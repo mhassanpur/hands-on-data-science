@@ -1,0 +1,18 @@
+# Deep learning curriculum environment (WSL venv, Python 3.13)
+# Install: uv pip install --python <venv>/bin/python -r requirements.txt
+#
+# NOTE: torch must come from the PyTorch CUDA 12.8 index, not PyPI, to get
+# native sm_120 (Blackwell / RTX 50-series) kernels:
+#   uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+datasets==5.0.0
+ipykernel==7.3.0
+matplotlib==3.11.1
+nbconvert==7.17.1
+numpy==2.5.1
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.18.0
+tensorflow[and-cuda]==2.21.0   # notebooks 1-6: linear_algebra, convolutional_networks, generative_models
+torch==2.11.0+cu128            # notebooks 7-10: transformers
+torchvision==0.26.0+cu128
+transformers==5.14.1           # tokenizer only — the models are built from scratch
