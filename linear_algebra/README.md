@@ -32,8 +32,8 @@ can drop into any chapter, but the ideas only make sense in order.
 Every concept gets **three passes**, marked
 🧠 **The intuition** (no symbols) → 📐 **The math** (paper-readable) →
 💻 **The code** (executable, in the next cell). Modules are separated by `---`
-and a `# Module N — Title` heading — module numbers are Roman numerals,
-subsections are lettered within their module (`II.a`, `II.b`) — opened with a
+and a `# Module N — Title` heading, with module numbers in Roman numerals and
+subsections lettered within their module (`II.a`, `II.b`), opened with a
 table of what you will build, and closed with a
 `| You built | The transferable lesson |` wrap-up. Tunable
 constants carry an inline `# <- knob`: sample sizes, matrix sizes, polynomial

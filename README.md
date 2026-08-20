@@ -48,7 +48,7 @@ Start at [ch01_intro_neural_networks.ipynb](deep_learning/ch01_intro_neural_netw
 Notebooks explain each concept three times in a fixed order: 🧠 the intuition
 with no symbols, 📐 the math in a form you could read on paper, then 💻 the code
 in the next cell. Modules within a chapter are separated by `---` and a
-`# Module N — Title` heading — chapters carry arabic numbers, modules Roman
+`# Module N — Title` heading: chapters carry arabic numbers, modules Roman
 numerals (`Module II`), and subsections letters within their module (`II.a`,
 `II.b`). Each chapter opens with a table of the modules it contains, and each
 one closes with a two-column wrap-up pairing what you built against the
