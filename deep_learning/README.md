@@ -62,9 +62,10 @@ that decides what actually runs.
 - **Every concept gets three passes**, in this order:
   🧠 **the intuition** (no symbols) → 📐 **the math** (paper-readable) →
   💻 **the code** (executable, in the next cell).
-- Modules are separated by `---` and a `# Module N — Title` heading; each
-  chapter opens with a table of its modules and closes with a
-  `| You built | the lesson |` wrap-up.
+- Modules are separated by `---` and a `# Module N — Title` heading, with
+  module numbers in Roman numerals and subsections lettered within their
+  module (`II.a`, `II.b`); each chapter opens with a table of its modules and
+  closes with a `| You built | the lesson |` wrap-up.
 - Tunable cost/quality constants are marked `# <- knob` inline.
 - Datasets come from the Hugging Face `datasets` library; models are built from
   scratch rather than imported.
@@ -84,7 +85,7 @@ that decides what actually runs.
 The mental model transfers directly: `keras.layers.Layer` → `nn.Module`,
 `build()`/`call()` → `__init__()`/`forward()`. The one real difference is that
 there is no `model.fit()`, so you write the training loop yourself. Chapter 9,
-Module 4 introduces it line by line.
+Module IV introduces it line by line.
 
 ## Setup
 
